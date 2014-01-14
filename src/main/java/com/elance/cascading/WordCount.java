@@ -18,7 +18,7 @@
  * limitations under the License.
  */
 
-package impatient;
+package com.elance.cascading;
 
 import java.util.Properties;
 
