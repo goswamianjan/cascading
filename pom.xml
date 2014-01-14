@@ -51,7 +51,7 @@
             <configuration>
                 <archive>
                     <manifest>
-                        <mainClass>com.elance.Cascading.Main</mainClass>
+                        <mainClass>com.elance.Cascading.WordCount</mainClass>
                     </manifest>
                 </archive>
             </configuration>

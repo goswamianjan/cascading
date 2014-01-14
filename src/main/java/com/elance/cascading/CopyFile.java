@@ -33,16 +33,17 @@ import cascading.tap.hadoop.Hfs;
 
 
 public class
-  Main
+  CopyFile
   {
   public static void
+  
   main( String[] args )
     {
     String inPath = args[ 0 ];
     String outPath = args[ 1 ];
 
     Properties properties = new Properties();
-    AppProps.setApplicationJarClass( properties, Main.class );
+    AppProps.setApplicationJarClass( properties, CopyFile.class );
     HadoopFlowConnector flowConnector = new HadoopFlowConnector( properties );
 
     // create the source tap
